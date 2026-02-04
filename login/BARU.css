@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #6FAE4F;
+}
+
+.form-login {
+  max-width: 330px;
+  margin: auto;
+}
+
+.btn-login {
+  background-color: #2563EB;
+  color: white;
+  border: none;
+}
+
+.btn-login:hover {
+  background-color: #1E40AF;
+  color: white;
+}

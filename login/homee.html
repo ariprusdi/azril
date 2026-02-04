@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Azril Coffee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(kopi1.png);
+            color: #333;
+        }
+
+        /* ===== NAVBAR ===== */
+        header {
+            background: linear-gradient(135deg, rgb(160, 98, 5), black);
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background-image: url(koko.jpg);
+            box-shadow: 0 15px 40px rgba(0,0,0,0,4);
+            padding: 60px 40px;
+            text-align: center;
+            font-size: 52px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            color: #f5f1ea;
+            width: 100%;
+            height: 250px;
+            background:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent 60%),
+            url("koko.jpg");
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 10px 25px rgb(2, 2, 2);
+        }
+
+        .herosub {
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            opacity: 0.85;
+            line-height: 1.6;
+            color: #f5f1ea;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: aliceblue;
+        }
+
+        .hero p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        a.tbl-biru{
+    background: rgb(83, 37, 6);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: black;
+    text-decoration: none;
+}
+
+        /* ===== CONTENT ===== */
+        .container {
+            padding: 40px;
+        }
+
+        .cards {
+            display: flex;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: linear-gradient(to bottom, #ffeac0, #ffb895);
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgb(2, 2, 2);
+            transition: 0.3s;
+            padding: 30px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .card a{
+            text-decoration: none;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: #aaa;
+            margin-top: 40px;
+            font-size: 13px;
+        }
+
+        @media(max-width:600px){
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <h1>Azril Coffee</h1>
+    <nav>
+        <nav>
+        <li><a href="login2.html" class="tbl-biru">Log Out</a></li>
+    </nav>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h2>Azril Coffee</h2>
+<section class="herosub">
+    <h2>Crafted with care,served with warmth
+    </section>
+</section>
+
+<!-- CONTENT -->
+<section class="container">
+    <div class="cards">
+        <div class="card">
+            <a href="menu.html">
+            <h3>☕Drink</h3>
+            <p>Lihat kopi apa saja yang bisa anda pesan </p>
+        </div>
+
+        <div class="card">
+            <a href="food.html">
+            <h3>🍔Food</h3>
+            <p>Berbagai macam pilihan makanan.</p>
+        </div>
+
+        <div class="card">
+            <a href="ruangan.html">
+            <h3>👑VIP Room</h3>
+            <p>Ruangan khusus dengan fasilitas lebih lengkap.</p>
+        </div>
+
+        
+        
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+
+</body>
+</html>
